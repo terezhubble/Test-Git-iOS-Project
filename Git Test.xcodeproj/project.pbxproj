@@ -21,6 +21,7 @@
 		802E614118D4E96A0062559C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802E612318D4E96A0062559C /* UIKit.framework */; };
 		802E614918D4E96A0062559C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 802E614718D4E96A0062559C /* InfoPlist.strings */; };
 		802E614B18D4E96A0062559C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802E614A18D4E96A0062559C /* Git_TestTests.m */; };
+		802E615618D4EAB40062559C /* THBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 802E615518D4EAB40062559C /* THBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		802E614618D4E96A0062559C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		802E614818D4E96A0062559C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		802E614A18D4E96A0062559C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		802E615418D4EAB40062559C /* THBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBTest.h; sourceTree = "<group>"; };
+		802E615518D4EAB40062559C /* THBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		802E611318D4E96A0062559C = {
 			isa = PBXGroup;
 			children = (
+				802E615418D4EAB40062559C /* THBTest.h */,
+				802E615518D4EAB40062559C /* THBTest.m */,
 				802E612518D4E96A0062559C /* Git Test */,
 				802E614418D4E96A0062559C /* Git TestTests */,
 				802E611E18D4E96A0062559C /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				802E613618D4E96A0062559C /* THBViewController.m in Sources */,
 				802E612C18D4E96A0062559C /* main.m in Sources */,
+				802E615618D4EAB40062559C /* THBTest.m in Sources */,
 				802E613018D4E96A0062559C /* THBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
